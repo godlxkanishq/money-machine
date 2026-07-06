@@ -1,0 +1,18 @@
+{
+  "name": "money-machine-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "keygen": "node src/keygen.js",
+    "keys:list": "node src/keygen.js --list"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.15.0"
+  }
+}
